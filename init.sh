@@ -6,7 +6,7 @@
 echo 'パスフレーズを忘れずに！'
 ssh-keygen -t rsa -b 4096 -C "github@example.com"
 
-# GitHubへ悪世するための最低限の設定
+# GitHubへアクセスするための最低限の設定
 cat <<'EOL' >> ~/.ssh/config
 Host github.com
   HostName github.com
