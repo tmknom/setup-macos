@@ -100,4 +100,9 @@ brew install tldr
 # https://github.com/knqyf263/pet
 brew install knqyf263/pet/pet
 
+# GnuPG
+# asdf経由でnodejsをインストールするために必要
+# https://github.com/asdf-vm/asdf-nodejs
+brew install gpg
+
 printf "\n\033[32mInstalled CLI tools.\033[0m\n"
