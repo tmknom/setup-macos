@@ -41,4 +41,9 @@ fi
 asdf install awscli latest
 asdf global awscli latest
 
+# Node.jsのインストール
+echo "Run asdf install nodejs..."
+asdf install nodejs latest
+asdf global nodejs latest
+
 printf "\n\033[32mInstalled CLI tools by asdf.\033[0m\n"
