@@ -25,7 +25,7 @@ install-homebrew: ## install homebrew
 	./scripts/install_homebrew.sh
 
 .PHONY: install-cli
-install-cli: update-brew ## install cli by homebrew
+install-cli: ## install cli by homebrew
 	./scripts/install_cli.sh
 
 .PHONY: install-asdf
@@ -33,7 +33,7 @@ install-asdf: ## install cli tools by asdf
 	./scripts/install_asdf.sh
 
 .PHONY: install-cask
-install-cask: update-brew ## install gui tools by cask
+install-cask: ## install gui tools by cask
 	./scripts/install_cask.sh
 
 .PHONY: install-zinit
