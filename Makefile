@@ -32,6 +32,10 @@ install-cli: ## install cli by homebrew
 install-asdf: ## install cli tools by asdf
 	./scripts/install_asdf.sh
 
+.PHONY: install-npm
+install-npm: ## install cli tools by npm
+	./scripts/install_npm.sh
+
 .PHONY: install-cask
 install-cask: ## install gui tools by cask
 	./scripts/install_cask.sh
