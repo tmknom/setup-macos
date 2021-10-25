@@ -17,4 +17,7 @@ npm install -g commitizen
 # https://github.com/commitizen/cz-conventional-changelog
 npm install -g cz-conventional-changelog
 
+# https://github.com/leoforfree/cz-customizable
+npm install -g cz-customizable
+
 printf "\n\033[32mInstalled CLI tools by npm.\033[0m\n"
