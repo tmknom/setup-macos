@@ -33,7 +33,7 @@ brew install gomplate
 # asdfのインストール
 # asdfはTerraformなどさまざまなCLIツールを複数バージョン管理
 # https://github.com/asdf-vm/asdf
-brew install asdf
+# brew install asdf
 
 # direnvのインストール
 # ディレクトリごとに環境変数を切り替え
@@ -43,7 +43,7 @@ brew install direnv
 # pecoのインストール
 # コマンドライン上でインタラクティブなフィルタリングを実現
 # https://github.com/peco/peco
-brew install peco
+# brew install peco
 
 # fzfのインストール
 # コマンドライン上でインタラクティブなフィルタリングを実現
