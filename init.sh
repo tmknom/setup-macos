@@ -10,10 +10,10 @@ ssh-keygen -t ed25519 -C "github@example.com"
 cat <<'EOL' >> ~/.ssh/config
 Host github.com
   HostName github.com
-  IdentityFile ~/.ssh/id_rsa
+  IdentityFile ~/.ssh/id_ed25519
   User git
 EOL
 
 # クリップボードに公開鍵をコピー
-pbcopy < ~/.ssh/id_rsa.pub
+pbcopy < ~/.ssh/id_ed25519.pub
 echo 'クリップボードに公開鍵をコピー！'
