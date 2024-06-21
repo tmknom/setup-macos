@@ -13,7 +13,7 @@ fi
 
 # zinitが見つからなかったときだけインストール
 if [ ! -d "${HOME}/.zinit" ]; then
-  sh -c "$(curl -fsSL https://raw.githubusercontent.com/zdharma/zinit/master/doc/install.sh)"
+  bash -c "$(curl --fail --show-error --silent --location https://raw.githubusercontent.com/zdharma-continuum/zinit/HEAD/scripts/install.sh)"
 fi
 
 printf "\n\033[32mInstalled zinit.\033[0m\n"
