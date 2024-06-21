@@ -4,7 +4,7 @@
 
 # SSH鍵の作成
 echo 'パスフレーズを忘れずに！'
-ssh-keygen -t rsa -b 4096 -C "github@example.com"
+ssh-keygen -t ed25519 -C "github@example.com"
 
 # GitHubへアクセスするための最低限の設定
 cat <<'EOL' >> ~/.ssh/config
