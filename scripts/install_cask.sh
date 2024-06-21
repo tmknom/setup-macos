@@ -13,7 +13,7 @@ fi
 
 # Spectacleのインストール
 # Spectacleはウィンドウサイズをキーボードでリサイズするためのツール
-brew install --cask spectacle
+# brew install --cask spectacle
 
 # Docker Desktopのインストール
 # 更新頻度が高いため、念のためインストール済みの場合はスキップさせる
@@ -39,6 +39,6 @@ brew install --cask kindle
 # https://koji.noshita.net/post/2021/0721-ricty-backtick/
 # https://memo.koumei2.com/m1%E3%83%81%E3%83%83%E3%83%97%E3%81%AE-mac-mini-%E3%81%A7-ricty%E3%83%95%E3%82%A9%E3%83%B3%E3%83%88%E3%82%92%E4%BD%BF%E3%81%86/
 brew install --cask fontforge
-brew install homebrew/cask-fonts/font-ricty-diminished
+brew install --cask font-ricty-diminished
 
 printf "\n\033[32mInstalled GUI tools.\033[0m\n"

@@ -54,7 +54,7 @@ brew install fzf
 # カラフルなlsコマンド
 # エイリアスでlsと差し替えて使用する
 # https://github.com/ogham/exa
-brew install exa
+# brew install exa
 
 # カラフルなcatコマンド
 # エイリアスでcatと差し替えて使用する
