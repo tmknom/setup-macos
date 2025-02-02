@@ -24,7 +24,3 @@ make install-zinit
 ```shell
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/tmknom/setup-macos/main/init.sh)"
 ```
-
-## LICENSE
-
-Apache 2 Licensed. See LICENSE for full details.
